@@ -35,26 +35,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
     ==========================================-->
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#features" class="page-scroll">Home</a></li>
-        <li><a href="#team" class="page-scroll">Feature</a></li>
-        <li><a href="#about" class="page-scroll">Submissions</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">About Us</a></li>
-        <li><a href="#contact" class="page-scroll">Get Involved</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-</nav>
+    <a id="ddmenuLink" href="menubar.html"></a>
 <!-- Header -->
 <header id="header">
   <div class="intro">
@@ -109,10 +90,11 @@
         <div class="col-md-10 col-md-offset-1">
           <div class="section-title">
                     <!--section-->
-          <h2>Issue 1</h2>
+          <h2><a href="posts/story-template.html">History Article</a></h2>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          <p><a href="posts/story-template.html">Read more</a></p>
         </div>
       </div>
       <div class="col-md-6">
@@ -130,7 +112,12 @@
         <div class="about-text">
           <div class="section-title">
             <h2>Submissions</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          <p>We are currently accepting submissions for the following genres:
+            <br /><br />- Creative nonfiction (Max length: 1200 words)
+          <br />- Creative fiction (Max length: 5000 words)
+          <br />- Poetry (Max length: 20 lines)
+          <br />- Visual Art (Photography, digital art, traditional art, etc.)
+          <br /><br />To learn more about submissions, visit <a href="submissions.html">the submissions page</a>.</p>
         </div>
       </div>
     </div>
@@ -143,11 +130,11 @@
   <div class="container">
     <div id="row">
         <div class="col-md-10 col-md-offset-1">
-          <div class="section-title">
+          <div id="about-us" class="section-title">
           <h2>About Us</h2>
           </div>
           <p>The Melting Pot is a literary journal dedicated to exploring American culture and tradition. Whether it's understanding where our ancestors came from or looking at immigrants of today, we want to celebrate the variety of its inhabitants that make America a truely incredibly blend of cultures, traditions, and history.
-          </p><p></p>
+          </p><p><br /></p>
           <div class="section-title">
           <h2>Our Team</h2>
           </div>
@@ -182,8 +169,7 @@
     <div class="col-md-4">
       <h3>Subscribe</h3>
       <div class="contact-item">
-        <p>Please visit</p>
-        <p>website</p>
+        <p>Click<a href="https://goo.gl/forms/wHHRrg4UhoA9QHHI2"> here </a>to subscribe for updates.</p>
       </div>
     </div>
     <div class="col-md-4">
@@ -253,5 +239,6 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="js/ddmenu.js" type="text/javascript"></script>
 </body>
 </html>

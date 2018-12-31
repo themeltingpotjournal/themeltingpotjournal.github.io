@@ -62,6 +62,8 @@ a:hover, a:focus {
 }
 ul, ol {
 	list-style: none;
+		font-size: 18px;
+	}
 }
 ul, ol {
 	padding: 0;
@@ -106,6 +108,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0 40px 0 40px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
+	color: #d43031;
+}
+#menu.navbar-default .navbar-nav > li > .active {
 	color: #d43031;
 }
 .on {
@@ -220,6 +225,7 @@ header .intro-text {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 }
 #features p {
+	font-size: 18px;
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
@@ -243,7 +249,8 @@ header .intro-text {
 	height: 570px;
 }
 #about p {
-	line-height: 24px;
+	font-size: 18px;
+line-height: 24px;
 	margin: 15px 0 30px;
 }
 /* Menu Section */
@@ -307,6 +314,11 @@ header .intro-text {
 	bottom: 0;
 	margin-left: 0;
 	left: 0;
+}
+#team p {
+	font-size: 18px;
+line-height: 24px;
+	margin: 15px 0 30px;
 }
 #team img {
 	max-width: 550px;
