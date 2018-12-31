@@ -310,6 +310,10 @@ line-height: 24px;
 #team {
 	padding: 120px 0;
 }
+#team2 {
+	padding: 120px 0;
+	background: #f6f6f6;
+}
 #team h2::after {
 	bottom: 0;
 	margin-left: 0;
@@ -324,6 +328,28 @@ line-height: 24px;
 	max-width: 550px;
 }
 #team .team-img {
+	display: inline-block;
+	position: relative;
+}
+/* Bio Section */
+#bio {
+	padding: 50px 0;
+	background: #f6f6f6;
+}
+#bio h2::after {
+	bottom: 0;
+	margin-left: 0;
+	left: 0;
+}
+#bio p {
+	font-size: 18px;
+line-height: 24px;
+	margin: 15px 0 30px;
+}
+#bio img {
+	max-width: 550px;
+}
+#bio .team-img {
 	display: inline-block;
 	position: relative;
 }
@@ -447,4 +473,14 @@ color: #999;
 }
 #footer a:hover {
 	color: #eee;
+}
+@media screen and (max-width:2400px) {
+  .profileImage img {
+    float: left;
+		margin: 15px;
+  }
+@media screen and (max-width:480px) {
+  .profileImage img {
+		display: none;
+  }
 }

@@ -31,6 +31,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
@@ -138,25 +139,37 @@
           <div class="section-title">
           <h2>Our Team</h2>
           </div>
-          <table>
-            <!--begin bio section-->
-            <tr>
-              <td><img style="width:200px;" src="placeholder">   </td>
-              <td style="width:50px"></td>
-              <td><h3>Aaron Durham, Senior Editor</h3>
-              <p>Aaron bio</p>
-              </td>
-              <tr>
-                <tr>
-              <td><img style="width:200px;" src="http://www.mollykmcgee.com/images/molly4.png">   </td>
-              <td style="width:50px"></td>
-              <td><h3>Molly McGee, Web Design</h3>
-              <p>Molly is a lifelong fiction and history enthusiast, who graduated with her bachelors in English from Texas A&M University in 2014, and Masters in Information and Library Science from the University of Texas at Austin in 2018. She enjoys reading and writing historical fiction and non-fiction, with the occasional forray into fantasy, science fiction, and steampunk lit.
-                <br /><br />Visit her website <a href="http://www.mollykmcgee.com/">here</a>.
-              </td>
-              <tr>
-                <!--end bio section-->
-              </table>
+    <!--begin bio section-->
+          <div id="row">
+            <div class="col-md-10 ">
+              <div id="about-us" class="section-title">
+                <div class="profileImage"><img style="width:200px;" src="placeholder">
+                </div>
+              <div >
+                <h3>Aaron Durham, Senior Editor</h3>
+                <p>Bio Text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end bio section-->
+              <!--begin bio section-->
+              <div id="row">
+                <div class="col-md-10 ">
+                  <div id="about-us" class="section-title">
+                  <div>
+                <div class="profileImage"><img style="width:200px;" src="http://www.mollykmcgee.com/images/molly4.png">
+                </div>
+                <div >
+                  <h3>Molly McGee, Web Design</h3>
+                  <p>Molly is a lifelong fiction and history enthusiast, who graduated with her bachelors in English from Texas A&M University in 2014, and Masters in Information and Library Science from the University of Texas at Austin in 2018. She enjoys reading and writing historical fiction and non-fiction, with the occasional forray into fantasy, science fiction, and steampunk lit.
+                  <br /><br />Visit her website <a href="http://www.mollykmcgee.com/">here</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+            <!--end bio section-->
         </div>
       </div>
     </div>
@@ -164,75 +177,9 @@
 </div>
 
 <!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container text-center">
-    <div class="col-md-4">
-      <h3>Subscribe</h3>
-      <div class="contact-item">
-        <p>Click<a href="https://goo.gl/forms/wHHRrg4UhoA9QHHI2"> here </a>to subscribe for updates.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Donate</h3>
-      <div class="contact-item">
-        <p>Please visit</p>
-        <p>website</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Follow Us</h3>
-      <div class="contact-item">
-        <p>@themeltingpotjournal</p>
-        <p>facebook.com/themeltingpotjournal</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="section-title text-center">
-      <h3>Send us a message</h3>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <form action="mailto:themeltingpotjournal@gmail.com" method="post" name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="col-md-6">
-      <p>&copy; 2018 The Melting Pot. All rights reserved. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
-    </div>
-    <div class="col-md-6">
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+<div id="include_footer"></div>
+
+<!--Scripts-->
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
@@ -240,5 +187,10 @@
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script src="js/ddmenu.js" type="text/javascript"></script>
+<script>
+$(function(){
+$("#include_footer").load("footer.html");
+});
+</script>
 </body>
 </html>
