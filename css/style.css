@@ -204,6 +204,41 @@ header .intro-text {
 	padding-bottom: 50px;
 	text-align: center;
 }
+/* Header for Posts Section */
+.intro-posts {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro-posts .overlay {
+	background: rgba(0,0,0,0.4);
+}
+.intro-posts h1 {
+	color: #fff;
+	font-size: 8em;
+	font-weight: 400;
+	margin-top: 0;
+}
+.intro-posts span {
+	color: #a7c44c;
+	font-weight: 600;
+}
+.intro-posts p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 150px;
+}
+header .intro-posts-text {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	text-align: center;
+}
 /* Features Section */
 #features {
 	padding: 120px 0;
