@@ -76,5 +76,5 @@ function includeHTML() {
 }
 
 $(function(){
-$("#include_footer").load("/footer.html");
+$("#include_footer").load("footer.html");
 });
